@@ -13,8 +13,3 @@ Route::prefix('students')->group(function () {
   Route::put('/{id}', [StudentsController::class, 'update']); // Update a student
   Route::delete('/{id}', [StudentsController::class, 'destroy']); // Delete a student
 });
-
-// Route::get('/users', 'UserController@index');
-// Route::post('/users', 'UserController@store');
-// Route::get('/users/{id}', 'UserController@show');
-// Add more routes as needed
